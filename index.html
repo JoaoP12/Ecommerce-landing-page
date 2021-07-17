@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMPTON - Black Friday</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/upper_body.css">
+    <link rel="stylesheet" href="./css/lower_body.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Sen:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="red_top">
+            <div class="inner_header">
+                <h1 id="title">SEMPTON</h1>
+                <div id="search">
+                    <input type="text" id="search_field" placeholder="O que você procura?">
+                    <a href="#"><img id="search_icn" src="./img/search.png" alt="Search icon"></a>
+                </div>
+                <div id="profile_and_cart">
+                    <a href="#"><img class="side_icon" src="./img/shopping-cart.png" alt="Shopping cart icon"></a>
+                    <a href="#"><img class="side_icon" src="./img/user-profile.png" alt="User profile icon"></a>
+                    <p>
+                        <a href="#">Login</a> <br>
+                        <a href="#">Cadastre-se</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="white_bottom">
+            <ul>
+                <li><a href="#">Mais vendidos</a></li>
+                <li><a href="#">Notebooks</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="top_body">
+            <h1 id="big_logo">
+                Black <br>
+                <span id="friday">Friday</span>
+            </h1>
+            <div class="right_side">
+                <h2>Até <span id="percent_off">60%</span> off em toda a loja</h2>
+                <div id="email_area">
+                    <p>Receba nossas ofertas direto na sua caixa de mensagens:</p>
+                    <div class="field_n_btn">
+                        <input type="text" id="email_field" placeholder="Digite seu e-mail">
+                        <button id="send" onclick="storeEmail()">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="predator_content">
+                <h1>O mais amado pelos clientes!</h1>
+                <img id="notebook" src="./img/predator.png" alt="Notebook Helios">
+                <div class="prod_info">
+                    <h2>Acer Predator Helios 300</h2>
+                    <p>Um notebook poderoso para rodar os seus jogos preferidos <br> <s>R$ 12.999,00</s></p>
+                    
+                    <h2>R$ 11.254,00</h2>
+                </div>
+            </div>
+            <div class="predator_content products">
+                <h1>Os mais vendidos</h1>
+                <div class="products_div">
+                    <div class="product_container">
+                        <img src="./img/predator.png" alt="Acer predator">
+                        <div class="container_info">
+                            <h2>Acer Predator Helios 300</h2><br>
+                            <p>Um notebook poderoso para você rodar seus jogos preferidos.</p>
+                            <p><s>R$12.999,00</s><br><h2>R$11.254,00</h2></p>
+                        </div>
+                    </div>
+                    <div class="product_container">
+                        <img src="./img/razer-stealth-13.png" alt="Razer Stealth">
+                        <div class="container_info">
+                            <h2>Razer Blade Stealth</h2><br>
+                            <p>Rápido, compacto e eficiente. Para trabalhar, estudar ou jogar.</p>
+                            <p><s>R$19.0000,00</s><br><h2>R$17.823,85</h2></p>
+                        </div>
+                    </div>
+                    <div class="product_container">
+                        <img src="./img/vivobook.png" alt="Asus Vivobook">
+                        <div class="container_info">
+                            <h2>Asus Vivobook 15</h2><br>
+                            <p>Um computador leve e portátil, mas robusto o suficiente para programas mais pesados.</p>
+                            <p><s>R$6.323,00</s><br><h2>R$4.867,29</h2></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+</body>
+</html>

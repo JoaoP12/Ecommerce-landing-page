@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-radius: 13px;
+    border-style: none;
+    padding: 1%;
+}

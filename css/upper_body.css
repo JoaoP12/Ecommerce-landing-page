@@ -1,0 +1,77 @@
+.top_body {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(180deg, #0A0A0A 0%, #000000 0.01%, #1D1B1B 33.85%, #211E1E 50.52%, #1C1B1B 67.19%, #000000 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#big_logo {
+    font-family: 'Oleo Script', cursive;
+    font-size: 230px;
+    text-shadow: -12px 12px 8px rgba(0, 0, 0, 0.4);
+    line-height: 220px;
+    text-align: center;
+    margin: 100px;
+    float: left;
+}
+
+#friday {
+    font-size: 250px;
+    color: #C00000;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin: 100px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.right_side h2 {
+    width: 350px;
+    font-size: 50px;
+}
+
+#percent_off {
+    color: #C00000;
+    font-size: 70px;
+}
+
+#email_area {
+    width: 630px;
+    font-weight: bold;
+}
+
+#email_area input {
+    height: 25px;
+    width: 500px;
+    font-size: 15px;
+    color: black;
+}
+
+#send {
+    background-color: #C00000;
+    border-style: none;
+    width: 100px;
+    height: 34px;
+    border-radius: 15px;
+}
+
+.field_n_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    border-style: 1px solid white;
+}
